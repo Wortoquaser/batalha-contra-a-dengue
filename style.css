@@ -1,0 +1,28 @@
+.h1 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background: linear-gradient(270deg, rgb(21, 244, 0) 0%, rgb(235, 219, 0) 102.13%) text;
+    -webkit-text-fill-color: transparent;
+}
+
+h1 {
+    color: black;
+}
+
+.jogo {
+    position: absolute;
+    top: 135px;
+    left: 47%;
+    transform: translateX(-50%);
+}
+
+body {
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.home {
+    position: absolute;
+    top: 135px;
+    left: 53%;
+    transform: translateX(-50%);
+}

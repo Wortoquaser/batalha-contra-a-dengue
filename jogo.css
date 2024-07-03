@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#jogo {
+    position: relative;
+    text-align: center;
+    margin: 20px auto;
+}
+
+#game-container {
+    position: relative;
+    width: 800px; /* largura do iframe */
+    height: 600px; /* altura do iframe */
+    margin: 0 auto;
+}
+
+#fullscreen-icon {
+    position: absolute;
+    bottom: 10px; /* distância do fundo da div pai */
+    right: 330px; /* distância da direita da div pai */
+    font-size: 16px;
+    cursor: pointer;
+    z-index: 100; /* garante que o botão esteja sobre o iframe */
+}
+
+header {
+    position: absolute;
+    top: 135px;
+    left: 53%;
+    transform: translateX(-50%);
+}
