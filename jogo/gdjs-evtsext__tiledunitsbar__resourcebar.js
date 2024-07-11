@@ -51,6 +51,7 @@ gdjs.evtsExt__TiledUnitsBar__ResourceBar.ResourceBar = class ResourceBar extends
     };
   }
   updateFromNetworkSyncData(networkSyncData) {
+    super.updateFromNetworkSyncData(networkSyncData);
     
     if (networkSyncData.props.Value !== undefined)
       this._behaviorData.Value = networkSyncData.props.Value;

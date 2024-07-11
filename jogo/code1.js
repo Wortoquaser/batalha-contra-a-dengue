@@ -12,13 +12,13 @@ gdjs.RegistroCode.GDBG_9595AguaparadaObjects1= [];
 gdjs.RegistroCode.GDBG_9595AguaparadaObjects2= [];
 
 
-gdjs.RegistroCode.mapOfGDgdjs_9546RegistroCode_9546GDNewSpriteObjects1Objects = Hashtable.newFrom({"NewSprite": gdjs.RegistroCode.GDNewSpriteObjects1});
+gdjs.RegistroCode.mapOfGDgdjs_9546RegistroCode_9546GDBT_95959595OkObjects1Objects = Hashtable.newFrom({"BT_Ok": gdjs.RegistroCode.GDBT_9595OkObjects1});
 gdjs.RegistroCode.eventsList0 = function(runtimeScene) {
 
 {
 
+gdjs.copyArray(runtimeScene.getObjects("BT_Ok"), gdjs.RegistroCode.GDBT_9595OkObjects1);
 gdjs.copyArray(runtimeScene.getObjects("INP_Nome"), gdjs.RegistroCode.GDINP_9595NomeObjects1);
-gdjs.copyArray(runtimeScene.getObjects("NewSprite"), gdjs.RegistroCode.GDNewSpriteObjects1);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
@@ -42,7 +42,7 @@ for (var i = 0, k = 0, l = gdjs.RegistroCode.GDINP_9595NomeObjects1.length;i<l;+
 gdjs.RegistroCode.GDINP_9595NomeObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.RegistroCode.mapOfGDgdjs_9546RegistroCode_9546GDNewSpriteObjects1Objects, runtimeScene, true, false);
+isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.RegistroCode.mapOfGDgdjs_9546RegistroCode_9546GDBT_95959595OkObjects1Objects, runtimeScene, true, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
