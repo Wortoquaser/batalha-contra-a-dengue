@@ -8,6 +8,18 @@ gdjs.InicioCode.GDBT_9595OkObjects1= [];
 gdjs.InicioCode.GDBT_9595OkObjects2= [];
 gdjs.InicioCode.GDBG_9595AguaparadaObjects1= [];
 gdjs.InicioCode.GDBG_9595AguaparadaObjects2= [];
+gdjs.InicioCode.GDOBJ_9595FasesObjects1= [];
+gdjs.InicioCode.GDOBJ_9595FasesObjects2= [];
+gdjs.InicioCode.GDTXT_9595FasesObjects1= [];
+gdjs.InicioCode.GDTXT_9595FasesObjects2= [];
+gdjs.InicioCode.GDHUD_9595MoedaObjects1= [];
+gdjs.InicioCode.GDHUD_9595MoedaObjects2= [];
+gdjs.InicioCode.GDTXT_9595HUD_9595MoedasObjects1= [];
+gdjs.InicioCode.GDTXT_9595HUD_9595MoedasObjects2= [];
+gdjs.InicioCode.GDBT_9595LeaderBoardObjects1= [];
+gdjs.InicioCode.GDBT_9595LeaderBoardObjects2= [];
+gdjs.InicioCode.GDA_9595joystickObjects1= [];
+gdjs.InicioCode.GDA_9595joystickObjects2= [];
 
 
 gdjs.InicioCode.mapOfGDgdjs_9546InicioCode_9546GDBT_95959595OkObjects1Objects = Hashtable.newFrom({"BT_Ok": gdjs.InicioCode.GDBT_9595OkObjects1});
@@ -44,6 +56,18 @@ gdjs.InicioCode.GDBT_9595OkObjects1.length = 0;
 gdjs.InicioCode.GDBT_9595OkObjects2.length = 0;
 gdjs.InicioCode.GDBG_9595AguaparadaObjects1.length = 0;
 gdjs.InicioCode.GDBG_9595AguaparadaObjects2.length = 0;
+gdjs.InicioCode.GDOBJ_9595FasesObjects1.length = 0;
+gdjs.InicioCode.GDOBJ_9595FasesObjects2.length = 0;
+gdjs.InicioCode.GDTXT_9595FasesObjects1.length = 0;
+gdjs.InicioCode.GDTXT_9595FasesObjects2.length = 0;
+gdjs.InicioCode.GDHUD_9595MoedaObjects1.length = 0;
+gdjs.InicioCode.GDHUD_9595MoedaObjects2.length = 0;
+gdjs.InicioCode.GDTXT_9595HUD_9595MoedasObjects1.length = 0;
+gdjs.InicioCode.GDTXT_9595HUD_9595MoedasObjects2.length = 0;
+gdjs.InicioCode.GDBT_9595LeaderBoardObjects1.length = 0;
+gdjs.InicioCode.GDBT_9595LeaderBoardObjects2.length = 0;
+gdjs.InicioCode.GDA_9595joystickObjects1.length = 0;
+gdjs.InicioCode.GDA_9595joystickObjects2.length = 0;
 
 gdjs.InicioCode.eventsList0(runtimeScene);
 

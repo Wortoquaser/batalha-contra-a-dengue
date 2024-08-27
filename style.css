@@ -6,13 +6,17 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
     padding: 0;
+    background-image: url(midias/background.png);
+    background-size: cover; /* Ajusta a imagem para cobrir todo o fundo */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
 }
 
 header {
-    background-color: #1b791e;
+    display: flex; /* Transforma o contêiner em um flex container */
+    align-items: center; /* Alinha os itens no centro verticalmente */
+    justify-content: space-around; /* Distribui os itens com espaço entre eles */
     color: white;
     padding: 15px;
-    text-align: center;
 }
 
 nav {

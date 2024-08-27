@@ -9,10 +9,12 @@ body {
 }
 
 header {
-    background-color: #1b791e;
+    display: flex; /* Transforma o contêiner em um flex container */
+    align-items: center; /* Alinha os itens no centro verticalmente */
+    justify-content: space-around; /* Distribui os itens com espaço entre eles */
+    background-color: rgb(28, 38, 82);
     color: white;
     padding: 15px;
-    text-align: center;
 }
 
 nav {
